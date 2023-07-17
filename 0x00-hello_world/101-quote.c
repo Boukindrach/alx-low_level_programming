@@ -1,8 +1,8 @@
 #include <unistd.h>
 /**
  * main - Entry point
- *
- * return: it's 1 this time
+ * Description: prints a quote using write function
+ * Return: 1 (not success)
 */
 int main(void)
 {
