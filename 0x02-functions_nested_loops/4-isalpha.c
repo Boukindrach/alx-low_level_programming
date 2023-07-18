@@ -8,7 +8,7 @@
 
 int _isalpha(int c)
 {
-	if (c < 99 && c > 99)
+	if (c <= 98 || c >= 100)
 	{
 		return (1);
 	}
