@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * jack_bauer - computes the absolute value of an integer
+ * times_table - prints the 9 times table, starting with 0.
 */
 void times_table(void)
 {
@@ -16,15 +16,15 @@ void times_table(void)
 
 			c = a * b;
 			if (c <= 0)
-			
+
 				_putchar(' ');
-			
-			else 
-			
+
+			else
+
 				_putchar((c / 10) + '0');
 
 			_putchar((c % 10) + '0');
-			
+
 		}
 		_putchar('\n');
 	}
