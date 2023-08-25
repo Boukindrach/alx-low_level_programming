@@ -1,5 +1,5 @@
-#ifndef DOG_H
-#define DOG_H
+#ifndef DOG
+#define DOG
 
 /**
 * @name: pointer to the name of the dog
