@@ -19,15 +19,15 @@ int main(int argc, char *argv[])
 	{
 		for (; i < argc; i++)
 		{
-			j = atoi(argv[i]) + j;
-
 			if (*argv[i] < 48 || *argv[i] > 57)
 			{
 				printf("Error\n");
 				return (1);
 			}
+
+			j = atoi(argv[i]) + j;
 		}
+		printf("%d\n", j);
 	}
-	printf("%d\n", j);
 	return (0);
 }
