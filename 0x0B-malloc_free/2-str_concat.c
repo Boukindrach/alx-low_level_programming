@@ -3,7 +3,7 @@
 #include <stddef.h>
 
 /**
- * create_array- concatenates two strings
+ * str_concat- concatenates two strings
  * @s1: string 1
  * @s2: string 2
  * Return: a pointer, or NULL if it fails
