@@ -1,3 +1,5 @@
+#define DOG_H
+
 struct dog
 {
 	char *name;
