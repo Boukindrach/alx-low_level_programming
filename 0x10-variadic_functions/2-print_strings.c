@@ -25,7 +25,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		{
 			for (j = 0; str[j] != '\0'; j++)
 			{
-				putchar(str[j]);
+				_putchar(str[j]);
 			}
 		}
 		else
@@ -33,19 +33,19 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			nil_str = "(nil)";
 			for (j = 0; nil_str[j] != '\0'; j++)
 			{
-				putchar(nil_str[j]);
+				_putchar(nil_str[j]);
 			}
 		}
 		if (separator != NULL && i != n - 1)
 		{
 			for (j = 0; separator[j] != '\0'; j++)
 			{
-				putchar(separator[j]);
+				_putchar(separator[j]);
 			}
 		}
 	}
 
-	putchar('\n');
+	_putchar('\n');
 
 	va_end(args);
 }
