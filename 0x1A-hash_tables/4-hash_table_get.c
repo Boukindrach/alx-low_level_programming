@@ -2,12 +2,12 @@
 
 /**
  * hash_table_get - Retrieve the value associated with
- *                  a key in a hash table.
- * @ht: A pointer to the hash table.
- * @key: The key to get the value of.
+ *			a key in a hash table.
+ * @ht: Pointer to the hash table.
+ * @key: Key to retrieve the value for.
  *
- * Return: If the key cannot be matched - NULL.
- *         Otherwise - the value associated with key in ht.
+ * Return: Value associated with the key,
+ *		or NULL if the key is not found.
  */
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
