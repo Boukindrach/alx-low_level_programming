@@ -5,7 +5,7 @@
  * @array: Pointer to the first element of the array
  * @size: Number of elements in the array
  * @value: Value to search for
- * 
+ *
  * Return: Index of the value in the array, or -1 if not found
  */
 
